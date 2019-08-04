@@ -8,3 +8,8 @@ create-react-app is a javascript transpiler for react.
 3. Create a project in the project's directory: create-react-app 'project_name'
 4. The public folder contains the production files.
 5. The src folder contains the dev codes.
+6. Check if there are vulnerabilities in the project:  
+    yarn audit
+7. If there are vulnerabilities, upgrade the dependencies:
+    yarn upgrade
+8. 
