@@ -12,4 +12,9 @@ create-react-app is a javascript transpiler for react.
     yarn audit
 7. If there are vulnerabilities, upgrade the dependencies:
     yarn upgrade
-8. 
+
+8. Component: It is made of 
+a visual/structural (hmtl) + functional (js) + styles (css) = JSX 
+(a component contains a structure, some logic and a style).
+It always contains an obrigatory method render();
+
