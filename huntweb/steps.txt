@@ -1,0 +1,10 @@
+React:
+- Javascript library used to build user interfaces;
+- Very used to buid SPAs (Single Page Applications);
+
+1. Install nodejs, npm and yarn;
+2. Install react globally: npm install -g create-react-app
+create-react-app is a javascript transpiler for react.
+3. Create a project in the project's directory: create-react-app 'project_name'
+4. The public folder contains the production files.
+5. The src folder contains the dev codes.
