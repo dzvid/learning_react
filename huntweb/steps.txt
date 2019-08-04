@@ -18,3 +18,4 @@ a visual/structural (hmtl) + functional (js) + styles (css) = JSX
 (a component contains a structure, some logic and a style).
 It always contains an obrigatory method render();
 
+9. Created first component: Header (stateless component)
