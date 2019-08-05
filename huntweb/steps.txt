@@ -26,4 +26,5 @@ It always contains an obrigatory method render();
 11. The file services/api.js: Stores configurations to connect to external services;
 12. Need to use methods related to React's component lifecycle like:
     componentDidMount: Method runs as soon as the component gets done rendering in the screen
-    
+13. Install a library to make navigation possible: 
+    yarn add react-router-dom
