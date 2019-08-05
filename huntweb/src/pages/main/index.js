@@ -11,7 +11,7 @@ export default class Main extends Component{
         products: [],
         productInfo: {},
         page: 1
-    }
+    };
 
     componentDidMount(){
         this.loadProducts();
@@ -29,7 +29,7 @@ export default class Main extends Component{
             //Method to update the state object
             this.setState({ products: docs, productInfo, page });
         }catch(err){
-            console.log('Could not access the API!');
+            console.error("Could not access the API!");
         }
 
 
